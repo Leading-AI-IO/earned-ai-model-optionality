@@ -725,8 +725,8 @@ Let us state the conclusion first. **We do not know. Because it has not been mea
 
 Some figures on AI adoption in Japan do exist.
 
-According to Nomura Research Institute, Japan's generative-AI adoption rate is **57.7%**.<br/>
-The United States, China, and Germany all exceed 90%.
+According to the Ministry of Internal Affairs and Communications' *White Paper on Information and Communications in Japan 2025*, **55.2%** of Japanese enterprises use generative AI for some business task.<br/>
+China stands at 95.8%, the United States at 90.6%, and Germany at 90.3% — all above 90%.
 
 A Dynatrace survey found that only **11%** of Japanese companies use AI agents for both internal and external purposes.<br/>
 The global average is 50%—one-fifth of it.
@@ -763,7 +763,7 @@ But **whether the AI you installed can be replaced at any time is not measured.*
 
 ## Behind, or Simply Not Yet Asked?
 
-Japan's 57.7% adoption rate is frequently cited to stoke a sense of crisis.<br/>
+Japan's 55.2% usage rate is frequently cited to stoke a sense of crisis.<br/>
 But from this book's vantage point, another reading is available.
 
 Slow adoption also means **large-scale lock-in has not yet formed.**<br/>
