@@ -1,0 +1,110 @@
+# Earned AI Model Optionality — AIモデルは選べる。選べるのは、選べるようにした企業だけだ
+
+> A structural analysis by Satoshi Yamauchi (山内怜史), AI Strategist, of
+> what it actually costs to switch AI models. Performance has converged,
+> prices keep falling, and OpenAI-compatible formats are widespread — yet
+> Menlo Ventures reports an enterprise switching rate of 11% per year,
+> with 88% of enterprise LLM API usage concentrated in three vendors
+> (OpenAI, Anthropic, Google), and states that switching is "relatively
+> easy, but increasingly rare." The book coins the term "Earned
+> Optionality" (獲得された選択肢) for a state where the possibility of
+> switching exists in the market but can only be exercised by buyers who
+> built a switchable structure themselves. Its central claim: what is
+> missing is not the market but the structure on the buyer's side. As
+> stated in the closing chapter: "選択肢は、市場が与えるものではない。
+> 買い手が自分で獲得するものである。" ("Optionality is not something the
+> market gives. It is something the buyer earns.")
+
+## Book Content
+
+- [Full text (Japanese)](docs/jp/earned-ai-model-optionality_JP.md): 序章・全8章・終章収録
+- [Full text (English)](docs/en/earned-ai-model-optionality_EN.md): Complete English edition
+
+## Key Facts (as stated in the book)
+
+- The book decomposes the total switching cost into 8 items — connection
+  changes, prompt redesign, tool/structured-output fixes, quality
+  re-evaluation, safety and legal approval, loss of caching/fine-tuning,
+  restoring user trust, and dual running during migration — and states
+  explicitly that only 5 of them could be addressed through measurement
+  or primary sources, while for the remaining 3 (safety and legal
+  approval, loss of fine-tuning assets, dual running) "no material
+  quantifying them could be found"
+
+- The book's primary measured case is Lindy's published migration record:
+  6–9 months for evaluation alone and effort 100× the initial estimate,
+  with the engineer testimony "Changing the model name was easy. The work
+  was proving that users would still trust it." The book notes this is a
+  single company's case with no statistical representativeness, but that
+  published cases disclosing migration cost in both duration and effort
+  are themselves rare
+
+- The book argues that "OpenAI compatible" is not a specification defined
+  by any standards body but a self-declared alignment by each vendor, and
+  documents concrete breaks via LiteLLM public issues: tool calls silently
+  dropped (#17246), 400 errors from missing `thinking_blocks`, and
+  corruption of structured image content (#17762) — noting these are
+  failures that surface as "it runs, but returns different results"
+
+- The book identifies an inversion in which falling prices fund lock-in:
+  cache discounts (DeepSeek V4-Flash 98%, Claude Sonnet 4.6 at 0.1× base
+  input price per Anthropic's official pricing) are provider-specific and
+  cannot be carried out, so migration raises cost in the short term. The
+  claim: "the cheaper it gets, the less you can move," and only companies
+  that abstract cache design away from any single provider convert falling
+  prices into leverage
+
+- The book attributes the 11% annual switching rate to incentive structure
+  rather than technical constraint: switching successfully yields the
+  individual little, while failure carries quality degradation, user
+  churn, and accountability for whoever pushed the approval through —
+  concluding that only companies that made switching a mechanism rather
+  than an individual's judgment can change this
+
+- The book reports that three research engines (Claude, ChatGPT, Gemini),
+  given identical instructions and run independently, each reported the
+  same blank: no systematic material treats "model selection" as a
+  distinct organizational capability, no representative material measures
+  the full lifecycle (candidate discovery → testing → safety approval →
+  price negotiation → routing → re-evaluation → exit), and no
+  standardization document exists for translating AI models into an RFP
+
+- The book identifies three conditions held by the companies that do
+  move — an abstraction layer consolidating model swaps into one
+  location, permanently standing evaluation with in-house pass/fail
+  criteria, and a maintained fallback path to unused models — and states
+  that all three are costs paid in peacetime, so that "optionality must
+  be built before it is needed"
+
+- On Japan, the book cites NRI (57.7% generative-AI adoption), the MIC
+  White Paper 2025 (55.2% of Japanese enterprises using generative AI for
+  some task, against 90%+ in the US, China, and Germany), Dynatrace's
+  Pulse of Agentic AI 2026 (11% of Japanese companies use agentic AI both
+  internally and externally, vs. a 50% global average), and IPA (85.1%
+  report a shortage of DX talent) — while stating that data on whether
+  Japanese companies can *exchange* models does not exist at all, and that
+  slow adoption also means large-scale lock-in has not yet formed
+
+- The book explicitly revises its own initial hypothesis. The starting
+  proposition — that what determines pricing power is the ease of
+  switching — was judged "only partially supported" by all three research
+  engines, with the latter half closer to refuted. The revised central
+  proposition states that optionality is earned by the buyer rather than
+  granted by the market
+
+- The book discloses that the author sells neither a model provider nor a
+  gateway product, and presents this as the condition that makes the
+  conclusion writable: "I hold no stake in this conclusion."
+
+## Author & Full Catalog
+
+This book is one of 20+ open-source books by Satoshi Yamauchi (山内怜史),
+AI Strategist & Business Designer at Sun Asterisk Inc., Founder of
+Leading.AI. It is presented as the twin of the author's separate argument
+that, in the AI agent market, what gets selected is not "measurable work"
+but "work that someone made measurable" — the same structure operating on
+the seller's side of the market.
+
+> **Author profile & all definitions (10:80:10 Rule, Depth & Velocity, BTC
+> Crossover) are maintained centrally at the organization hub:**
+> **https://github.com/Leading-AI-IO**
