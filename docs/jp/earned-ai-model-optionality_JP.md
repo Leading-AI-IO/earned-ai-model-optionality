@@ -116,6 +116,32 @@ OpenAI互換フォーマットを採用しているモデル提供者は多く�
 だが、どの層でも同じ命題が反復される。<br/>
 **モデルは交換できる。ただし、交換できるようにした者にとってだけ。**
 
+本書がたどる道筋を、一枚に整理する。
+
+```mermaid
+graph TD
+    A["市場の側の条件<br/>──────<br/>性能の収斂・価格の下落<br/>API互換フォーマットの普及"] --> C["それでも動かない<br/>──────<br/>年間切り替え率 11%<br/>上位3社で 88%"]
+    B["買い手の側の構造<br/>──────<br/>抽象化・評価・退避先<br/>いずれも未整備"] --> C
+    C --> D["切り替えコストの解体<br/>──────<br/>第2章 接続変更<br/>第3章 品質再評価<br/>第4章 キャッシュ喪失<br/>第5章 信頼回復"]
+    D --> E["測られていない残余<br/>──────<br/>第6章 承認・FT資産・二重運用"]
+    D --> F["動けている企業の条件<br/>──────<br/>第7章 抽象化・常設評価・退避先"]
+    E --> G["日本はどこに立つのか<br/>──────<br/>第8章 交換できるかは未測定"]
+    F --> G
+    G --> H{"獲得された選択肢<br/>──────<br/>選択肢は市場が配るものではない<br/>買い手が作るものである"}
+
+    style A fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+    style B fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style C fill:#0A0D10,stroke:#2E4756,color:#E8F1F5
+    style D fill:#2E4756,stroke:#5B8FA8,color:#E8F1F5
+    style E fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style F fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+    style G fill:#8FB8CC,stroke:#BFD9E6,color:#0A0D10
+    style H fill:#FFFFFF,stroke:#FFFFFF,color:#0A0D10
+```
+
+条件が整っている側は明るく、整っていない側は暗いまま残る。<br/>
+そして、すべての経路が一点に収束する。
+
 ### 参考文献
 
 1. Menlo Ventures「2025 Mid-Year LLM Market Update」（2025年7月31日）— 年間切り替え率11%／上位3社シェア88%／「切り替えは比較的容易だが、ますます稀になっている」<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
@@ -377,6 +403,26 @@ Claude Sonnet 4.6は**90%割引**。
 キャッシュは計算資源の合理的な節約であり、その恩恵を価格に反映するのは自然な設計だ。<br/>
 だが結果として、**価格競争が進むほどロックインが強まるという構造が成立している。**
 
+この反転を、一枚に整理する。
+
+```mermaid
+graph TD
+    A["価格の低下<br/>──────<br/>提供者間の競争"] --> B["キャッシュ割引の適用<br/>──────<br/>DeepSeek V4-Flash 98%<br/>Claude Sonnet 4.6 90%"]
+    B --> C["提供者固有の設計に最適化<br/>──────<br/>固定部分・順序・粒度を<br/>キャッシュ仕様に合わせ込む"]
+    C --> D{"安くなるほど、動けなくなる"}
+    D --> E["抽象化レイヤーを持たない<br/>──────<br/>割引の喪失が移行を止める<br/>価格低下は現状維持の誘因になる"]
+    D --> F["抽象化レイヤーを持つ<br/>──────<br/>キャッシュ仕様の差を下層が吸収<br/>価格低下が交渉力に変わる"]
+
+    style A fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+    style B fill:#8FB8CC,stroke:#BFD9E6,color:#0A0D10
+    style C fill:#2E4756,stroke:#5B8FA8,color:#E8F1F5
+    style D fill:#FFFFFF,stroke:#FFFFFF,color:#0A0D10
+    style E fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style F fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+```
+
+同じ割引が、抽象化の有無によって正反対の作用をする。
+
 ## 交渉力の条件が、ここで一つ確定する
 
 本章から導かれる帰結は明確である。
@@ -449,6 +495,27 @@ Lindyのエンジニアの言葉を、もう一度置く。
 
 そしてこの構造を変えられるのは、**切り替えを個人の判断ではなく仕組みにした企業だけ**だ。
 
+この構造を、一枚に整理する。
+
+```mermaid
+graph TD
+    A["モデルを切り替える"] --> B["成功した場合<br/>──────<br/>コストが下がったという報告<br/>担当者が得るものは小さい"]
+    A --> C["失敗した場合<br/>──────<br/>品質低下・ユーザー離脱<br/>承認を通した人間が責任を問われる"]
+    B --> D{"動機の非対称性<br/>──────<br/>合理的な担当者は、動かないことを選ぶ"}
+    C --> D
+    D --> E["年間 11%<br/>──────<br/>技術的制約の帰結ではない<br/>動機構造の帰結である"]
+    E --> F["切り替えを個人の判断ではなく<br/>仕組みにした企業だけが<br/>この構造を変えられる"]
+
+    style A fill:#2E4756,stroke:#5B8FA8,color:#E8F1F5
+    style B fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style C fill:#0A0D10,stroke:#2E4756,color:#E8F1F5
+    style D fill:#FFFFFF,stroke:#FFFFFF,color:#0A0D10
+    style E fill:#8FB8CC,stroke:#BFD9E6,color:#0A0D10
+    style F fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+```
+
+報酬の小ささと責任の重さは、同じ一つの決定にぶら下がっている。
+
 ### 参考文献
 
 1. Lindy「Migrating from Claude to DeepSeek」（2026年6月24日）— エンジニア証言「モデル名を変えるのは簡単だった。ユーザーが引き続き信頼するかを証明する部分が仕事だった」<br/>https://www.lindy.ai/blog/migrating-from-claude-to-deepseek
@@ -473,6 +540,27 @@ Lindyのエンジニアの言葉を、もう一度置く。
 残る3項目——**安全性・法務承認、ファインチューニング資産の喪失、移行期間中の二重運用**——について、本章は正直に書かなければならない。
 
 **これらを定量化した資料は、発見できなかった。**
+
+測れた側と、測れなかった側を分けて示す。
+
+```mermaid
+graph TD
+    A["総切り替えコスト<br/>──────<br/>8項目に分解"] --> B["実測または一次資料で扱えた<br/>──────<br/>接続変更・プロンプト再設計<br/>ツール／構造化出力修正<br/>品質再評価・ユーザー信頼回復"]
+    A --> C["定量化した資料が存在しない<br/>──────<br/>安全性・法務承認<br/>ファインチューニング資産の喪失<br/>移行期間中の二重運用"]
+    B --> D["議題になる<br/>──────<br/>数字があるから比較できる"]
+    C --> E["議題にならない<br/>──────<br/>数字がないから見積もれない"]
+    D --> F{"測られていないものは、改善されない"}
+    E --> F
+
+    style A fill:#2E4756,stroke:#5B8FA8,color:#E8F1F5
+    style B fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+    style C fill:#0A0D10,stroke:#2E4756,color:#E8F1F5
+    style D fill:#8FB8CC,stroke:#BFD9E6,color:#0A0D10
+    style E fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style F fill:#FFFFFF,stroke:#FFFFFF,color:#0A0D10
+```
+
+空白は、コストが小さいことを意味しない。見積もられていないことを意味する。
 
 ## 3つのエンジンが、同じ空白を報告した
 
@@ -592,6 +680,26 @@ SaaSの選定にも、比較表とRFPのテンプレートがある。<br/>
 
 切り替えが必要になったときには、もう間に合わない。<br/>
 **選択肢は、必要になる前に作られていなければならない。**
+
+3つの関係を、一枚に整理する。
+
+```mermaid
+graph TD
+    A["交換できるアーキテクチャ<br/>──────<br/>差し替え箇所を一箇所に集約<br/>キャッシュ仕様の差も吸収する"] --> D{"いずれも、平時に払うコストである"}
+    B["継続する再評価<br/>──────<br/>平時から品質を測り続ける<br/>判断は評価結果を読む作業になる"] --> D
+    C["維持されるフォールバック<br/>──────<br/>使わない経路に金と手間をかける<br/>退避先が動くと分かっている"] --> D
+    D --> E["切り替えが必要になった時点では<br/>もう間に合わない"]
+    E --> F["選択肢は、必要になる前に<br/>作られていなければならない"]
+
+    style A fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+    style B fill:#8FB8CC,stroke:#BFD9E6,color:#0A0D10
+    style C fill:#2E4756,stroke:#5B8FA8,color:#E8F1F5
+    style D fill:#FFFFFF,stroke:#FFFFFF,color:#0A0D10
+    style E fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style F fill:#0A0D10,stroke:#2E4756,color:#E8F1F5
+```
+
+3つはいずれも、切り替えないあいだは無駄に見える支出である。
 
 これが「獲得された選択肢」の意味である。<br/>
 選択肢は市場に存在する。だが、それを行使できる状態は、買い手が自分で作る。
@@ -714,6 +822,24 @@ Geminiの調査は、日本の情報システム部門や調達部門がAIモデ
 だが、どの層でも同じ命題が反復される。
 
 **モデルは交換できる。ただし、交換できるようにした者にとってだけ。**
+
+層の移動を、一枚に整理する。
+
+```mermaid
+graph TD
+    A["技術の層<br/>──────<br/>第2章 接続変更<br/>第3章 品質再評価<br/>第4章 キャッシュ喪失"] --> B["組織の層<br/>──────<br/>第5章 信頼回復と動機の非対称性<br/>第6章 測られていない残余<br/>第7章 平時に払う3つのコスト"]
+    B --> C["国家の層<br/>──────<br/>第8章 交換できるかを<br/>まだ誰も測っていない"]
+    A --> D{"モデルは交換できる<br/>──────<br/>ただし、交換できるようにした者にとってだけ"}
+    B --> D
+    C --> D
+
+    style A fill:#5B8FA8,stroke:#8FB8CC,color:#0A0D10
+    style B fill:#2E4756,stroke:#5B8FA8,color:#E8F1F5
+    style C fill:#1C2A33,stroke:#2E4756,color:#BFD9E6
+    style D fill:#FFFFFF,stroke:#FFFFFF,color:#0A0D10
+```
+
+層が変わっても、命題は同じ形で反復される。
 
 ## 想定される、3つの反論
 
