@@ -143,10 +143,11 @@ And every path converges on a single point.
 
 ### References
 
-1. Menlo Ventures, "2025 Mid-Year LLM Market Update" (July 31, 2025) — 11% annual switching rate / 88% in the top three vendors / "relatively easy to switch, but increasingly rare"<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
-2. Lindy, "Migrating from Claude to DeepSeek" (June 24, 2026) — 6–9 months of evaluation / migration effort 100× the estimate / engineer testimony<br/>https://www.lindy.ai/blog/migrating-from-claude-to-deepseek
-3. Semafor, "Exclusive: House committees probe Cursor parent, Airbnb over Chinese AI" (April 29, 2026)<br/>https://www.semafor.com/article/04/29/2026/house-committee-probes-cursor-parent-airbnb-over-chinese-ai
-4. CNBC, "Chinese AI models costs US OpenAI Anthropic" (July 7, 2026)<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
+1. Menlo Ventures, "2025 Mid-Year LLM Market Update" (July 31, 2025) — 11% annual switching rate / "relatively easy to switch, but increasingly rare"<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
+2. Menlo Ventures, "2025: The State of Generative AI in the Enterprise" (December 2025) — Enterprise LLM API share: Anthropic 40% / OpenAI 27% / Google 21% / 88% combined across the top three<br/>https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/
+3. Lindy, "Migrating from Claude to DeepSeek" (June 24, 2026) — 6–9 months of evaluation / migration effort 100× the estimate / engineer testimony<br/>https://www.lindy.ai/blog/migrating-from-claude-to-deepseek
+4. Semafor, "Exclusive: House committees probe Cursor parent, Airbnb over Chinese AI" (April 29, 2026)<br/>https://www.semafor.com/article/04/29/2026/house-committee-probes-cursor-parent-airbnb-over-chinese-ai
+5. CNBC, "Chinese AI models costs US OpenAI Anthropic" (July 7, 2026)<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
 
 <br/>
 
@@ -211,10 +212,11 @@ And at the end, we show what the companies that can move had already built.
 
 ### References
 
-1. Menlo Ventures, "2025 Mid-Year LLM Market Update" (July 31, 2025) — 11% annual switching rate / 88% in the top three vendors / performance, not price, drives switching<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
-2. DeepSeek, "Models & Pricing" — 98% discount on V4-Flash cache hits<br/>https://api-docs.deepseek.com/quick_start/pricing/
-3. Anthropic, "Pricing" (Claude Platform Docs) — Claude Sonnet 4.6 prompt-cache reads are priced at 0.1× the base input rate ($3/MTok → $0.30/MTok), a 90% discount<br/>https://platform.claude.com/docs/en/about-claude/pricing
-4. CNBC, "Chinese AI models costs US OpenAI Anthropic" (July 7, 2026) — the price advantage of Chinese models<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
+1. Menlo Ventures, "2025 Mid-Year LLM Market Update" (July 31, 2025) — 11% annual switching rate / performance, not price, drives switching<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
+2. Menlo Ventures, "2025: The State of Generative AI in the Enterprise" (December 2025) — Enterprise LLM API share: Anthropic 40% / OpenAI 27% / Google 21% / 88% combined across the top three<br/>https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/
+3. DeepSeek, "Models & Pricing" — 98% discount on V4-Flash cache hits<br/>https://api-docs.deepseek.com/quick_start/pricing/
+4. Anthropic, "Pricing" (Claude Platform Docs) — Claude Sonnet 4.6 prompt-cache reads are priced at 0.1× the base input rate ($3/MTok → $0.30/MTok), a 90% discount<br/>https://platform.claude.com/docs/en/about-claude/pricing
+5. CNBC, "Chinese AI models costs US OpenAI Anthropic" (July 7, 2026) — the price advantage of Chinese models<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
 
 <br/>
 
