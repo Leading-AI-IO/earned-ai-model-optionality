@@ -144,10 +144,11 @@ graph TD
 
 ### 参考文献
 
-1. Menlo Ventures「2025 Mid-Year LLM Market Update」（2025年7月31日）— 年間切り替え率11%／上位3社シェア88%／「切り替えは比較的容易だが、ますます稀になっている」<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
-2. Lindy「Migrating from Claude to DeepSeek」（2026年6月24日）— モデル移行の評価期間6〜9か月／移行労力は想定の100倍／エンジニア証言<br/>https://www.lindy.ai/blog/migrating-from-claude-to-deepseek
-3. Semafor「Exclusive: House committees probe Cursor parent, Airbnb over Chinese AI」（2026年4月29日）<br/>https://www.semafor.com/article/04/29/2026/house-committee-probes-cursor-parent-airbnb-over-chinese-ai
-4. CNBC「Chinese AI models costs US OpenAI Anthropic」（2026年7月7日）<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
+1. Menlo Ventures「2025 Mid-Year LLM Market Update」（2025年7月31日）— 年間切り替え率11%／「切り替えは比較的容易だが、ますます稀になっている」<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
+2. Menlo Ventures「2025: The State of Generative AI in the Enterprise」（2025年12月）— エンタープライズLLM API利用シェア Anthropic 40%／OpenAI 27%／Google 21%／上位3社合計88%<br/>https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/
+3. Lindy「Migrating from Claude to DeepSeek」（2026年6月24日）— モデル移行の評価期間6〜9か月／移行労力は想定の100倍／エンジニア証言<br/>https://www.lindy.ai/blog/migrating-from-claude-to-deepseek
+4. Semafor「Exclusive: House committees probe Cursor parent, Airbnb over Chinese AI」（2026年4月29日）<br/>https://www.semafor.com/article/04/29/2026/house-committee-probes-cursor-parent-airbnb-over-chinese-ai
+5. CNBC「Chinese AI models costs US OpenAI Anthropic」（2026年7月7日）<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
 
 <br/>
 
@@ -212,10 +213,11 @@ Airbnbは動いた。Cursorは動いた。Claudeから他社へ移して数百�
 
 ### 参考文献
 
-1. Menlo Ventures「2025 Mid-Year LLM Market Update」（2025年7月31日）— 年間切り替え率11%／上位3社88%／切り替え要因は性能<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
-2. DeepSeek「Models & Pricing」— V4-Flash キャッシュヒット時98%割引<br/>https://api-docs.deepseek.com/quick_start/pricing/
-3. Anthropic「Pricing」（Claude Platform Docs）— Claude Sonnet 4.6 プロンプトキャッシュ読み取りは基本入力単価の0.1倍（$3/MTok → $0.30/MTok）＝90%割引<br/>https://platform.claude.com/docs/en/about-claude/pricing
-4. CNBC「Chinese AI models costs US OpenAI Anthropic」（2026年7月7日）— 中国系モデルの価格優位<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
+1. Menlo Ventures「2025 Mid-Year LLM Market Update」（2025年7月31日）— 年間切り替え率11%／切り替え要因は性能<br/>https://menlovc.com/perspective/2025-mid-year-llm-market-update/
+2. Menlo Ventures「2025: The State of Generative AI in the Enterprise」（2025年12月）— エンタープライズLLM API利用シェア Anthropic 40%／OpenAI 27%／Google 21%／上位3社合計88%<br/>https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/
+3. DeepSeek「Models & Pricing」— V4-Flash キャッシュヒット時98%割引<br/>https://api-docs.deepseek.com/quick_start/pricing/
+4. Anthropic「Pricing」（Claude Platform Docs）— Claude Sonnet 4.6 プロンプトキャッシュ読み取りは基本入力単価の0.1倍（$3/MTok → $0.30/MTok）＝90%割引<br/>https://platform.claude.com/docs/en/about-claude/pricing
+5. CNBC「Chinese AI models costs US OpenAI Anthropic」（2026年7月7日）— 中国系モデルの価格優位<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
 
 <br/>
 
