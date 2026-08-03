@@ -32,7 +32,7 @@ Yet in that same year, 2026, Menlo Ventures reported something entirely differen
 **Switching between vendors is relatively easy, but it is becoming increasingly rare.**
 
 The annual switching rate is **11%**.<br/>
-And **88%** of enterprise LLM API usage is concentrated in three companies: OpenAI, Anthropic, and Google.
+And **88%** of enterprise LLM API usage is concentrated in three companies: Anthropic, OpenAI, and Google.
 
 What is supposed to be switchable is not being switched.<br/>
 This book begins from that contradiction.
@@ -168,7 +168,7 @@ There is only one way to check. **Look at whether buyers are actually swapping t
 According to Menlo Ventures, the share of enterprises that switch LLM vendors is **11% per year**.<br/>
 Nine out of ten companies stay with the same vendor for a full year.
 
-And **88%** of enterprise LLM API usage is held by three companies: OpenAI, Anthropic, and Google.<br/>
+And **88%** of enterprise LLM API usage is held by three companies: Anthropic, OpenAI, and Google.<br/>
 The number of options keeps growing, yet actual usage remains concentrated in three vendors.
 
 More important still is the reason switching occurs when it does.<br/>
