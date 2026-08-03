@@ -5,7 +5,7 @@
 > prices keep falling, and OpenAI-compatible formats are widespread — yet
 > Menlo Ventures reports an enterprise switching rate of 11% per year,
 > with 88% of enterprise LLM API usage concentrated in three vendors
-> (OpenAI, Anthropic, Google), and states that switching is "relatively
+> (Anthropic, OpenAI, Google), and states that switching is "relatively
 > easy, but increasingly rare." The book coins the term "Earned
 > Optionality" (獲得された選択肢) for a state where the possibility of
 > switching exists in the market but can only be exercised by buyers who
