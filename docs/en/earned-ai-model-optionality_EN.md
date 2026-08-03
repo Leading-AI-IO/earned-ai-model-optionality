@@ -225,7 +225,7 @@ Training capability is dispersing, both geographically and by supplier.
 
 On the licensing side, movements in opposite directions are occurring simultaneously.<br/>
 Tencent switched from its previous restrictive proprietary license to Apache 2.0 for the release of Hy3. <br/>
-poolside adopted OpenMDW for Laguna-S-2.1 — a license close to Apache 2.0 in permissiveness while carrying legal grounding specific to AI models.<br/>
+poolside adopted OpenMDW-1.1 for Laguna-S-2.1 — a license close to Apache 2.0 in permissiveness while carrying legal grounding specific to AI models.<br/>
 Meanwhile, Moonshot AI's Kimi K3 was released under a noncommercial license, requiring providers of inference and fine-tuning to enter into commercial agreements.
 
 **Liberalization and tightening are advancing at once, in the same market.** <br/>
@@ -263,6 +263,8 @@ And at the end, we show what the companies that can move had already built.
 3. DeepSeek, "Models & Pricing" — 98% discount on V4-Flash cache hits<br/>https://api-docs.deepseek.com/quick_start/pricing/
 4. Anthropic, "Pricing" (Claude Platform Docs) — Claude Sonnet 4.6 prompt-cache reads are priced at 0.1× the base input rate ($3/MTok → $0.30/MTok), a 90% discount<br/>https://platform.claude.com/docs/en/about-claude/pricing
 5. CNBC, "Chinese AI models costs US OpenAI Anthropic" (July 7, 2026) — the price advantage of Chinese models<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
+6. Florian Brand and Nathan Lambert, "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier," Interconnects AI (August 2, 2026) — the failure of the consolidation forecast / token generation as a path to value / licensing shifts across LongCat-2.0, Tencent Hy3, and Kimi K3<br/>https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21
+7. poolside, "Laguna-S-2.1 LICENSE.md," Hugging Face — the OpenMDW-1.1 license text<br/>https://huggingface.co/poolside/Laguna-S-2.1/blob/main/LICENSE.md
 
 <br/>
 
