@@ -228,7 +228,7 @@ AI研究の分析者Nathan Lambertらは、2026年8月時点でこう総括し�
 
 ライセンスの側では、さらに複雑な動きが同時に起きている。<br/>
 Tencentは、Hy3の公開にあたって従来の制限的な独自ライセンスからApache 2.0へ切り替えた。<br/>
-poolsideはLaguna-S-2.1で、Apache 2.0に近い自由度を持ちながらAIモデルに特化した法的裏づけを備えるOpenMDWを採用している。<br/>
+poolsideはLaguna-S-2.1で、Apache 2.0に近い自由度を持ちながらAIモデルに特化した法的裏づけを備えるOpenMDW-1.1を採用している。<br/>
 一方でMoonshot AIのKimi K3は非商用ライセンスで公開され、推論やファインチューニングを提供する事業者に商用契約の締結を求めている。
 
 **自由化と厳格化が、同じ市場で同時に進行している。** <br/>
@@ -265,6 +265,8 @@ Airbnbは動いた。Cursorは動いた。Claudeから他社へ移して数百�
 3. DeepSeek「Models & Pricing」— V4-Flash キャッシュヒット時98%割引<br/>https://api-docs.deepseek.com/quick_start/pricing/
 4. Anthropic「Pricing」（Claude Platform Docs）— Claude Sonnet 4.6 プロンプトキャッシュ読み取りは基本入力単価の0.1倍（$3/MTok → $0.30/MTok）＝90%割引<br/>https://platform.claude.com/docs/en/about-claude/pricing
 5. CNBC「Chinese AI models costs US OpenAI Anthropic」（2026年7月7日）— 中国系モデルの価格優位<br/>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html
+6. Florian Brand, Nathan Lambert「Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier」Interconnects AI（2026年8月2日）— 統合予測の不成立／トークン生成機械としての価値経路／LongCat-2.0・Tencent Hy3・Kimi K3のライセンス動向<br/>https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21
+7. poolside「Laguna-S-2.1 LICENSE.md」Hugging Face — OpenMDW-1.1ライセンスの原文<br/>https://huggingface.co/poolside/Laguna-S-2.1/blob/main/LICENSE.md
 
 <br/>
 
