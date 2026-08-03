@@ -195,6 +195,52 @@ Yet only 11% move in a year.
 
 **The reason they do not move is not on the market side.**
 
+## Supply Did Not Consolidate
+
+It is not only price. <br/>
+**The conditions on the supply side keep improving as well.**
+
+Until 2026, the dominant forecast said the opposite.<br/>
+Because training costs were rising by an order of magnitude each year, the organizations able to train models would be winnowed down and consolidated into a handful — this was treated as all but inevitable.
+
+That is not what happened.<br/>
+As of August 2026, AI researcher Nathan Lambert and colleagues summarize the situation this way: rather than consolidating, **more companies are training strong models, and more of them are releasing those models openly** — even though investments in the hundreds of millions to billions of dollars remain necessary.
+
+Their explanation is that the labs which were supposed to consolidate are realizing that **building a machine that generates tokens is itself a path to value**.
+
+Concrete cases bear this out.
+
+LongCat-2.0, released by China's Meituan, is a MoE with 1.6 trillion total parameters and roughly 48 billion active per token, distributed under the **MIT license**. <br/>
+The company states that it completed the entire process — training through inference — on a domestic AI ASIC superpod, and claims this is an industry first at the trillion-parameter scale.
+
+A caution is required here.<br/>
+**Meituan has disclosed neither the vendor nor the model number of the chips.** <br/>
+The official wording stops at "domestic AI compute chips." <br/>
+The figure of roughly 50,000 Ascend 910C units comes from press reports and community inference; neither Meituan nor Huawei has confirmed it.<br/> 
+The training scale of over 35 trillion tokens is likewise self-reported, with no third-party verification.
+
+**The structural implication holds regardless.** <br/>
+We have entered a stage where a training environment independent of any specific vendor is claimed to be viable at the trillion-parameter scale. <br/>
+Training capability is dispersing, both geographically and by supplier.
+
+On the licensing side, movements in opposite directions are occurring simultaneously.<br/>
+Tencent switched from its previous restrictive proprietary license to Apache 2.0 for the release of Hy3. <br/>
+poolside adopted OpenMDW for Laguna-S-2.1 — a license close to Apache 2.0 in permissiveness while carrying legal grounding specific to AI models.<br/>
+Meanwhile, Moonshot AI's Kimi K3 was released under a noncommercial license, requiring providers of inference and fine-tuning to enter into commercial agreements.
+
+**Liberalization and tightening are advancing at once, in the same market.** <br/>
+"Open" is no longer a single state; license design itself has become a competitive variable.
+
+Now let us line the numbers up again.
+
+The number of suppliers has grown. The options for training environments have grown. <br/>
+Licensing permissiveness has risen, at least in part.<br/>
+And on the demand side, annual switching stands at 11%. The top three still hold 88%.
+
+**The dispersion of supply did not produce a dispersion of demand.**
+
+So who were that 11%?
+
 ## "Companies That Can Move" and "Companies That Cannot" Are in Different Markets
 
 The figure of 11% is an average.<br/>
