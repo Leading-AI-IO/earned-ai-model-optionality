@@ -41,7 +41,7 @@
 
 Airbnb uses Alibaba's Qwen for customer service; CEO Brian Chesky explained the reason as "fast and cheap." Anysphere, the company behind Cursor, was reported to have adopted Moonshot AI's Kimi family, and House committees opened an investigation into both companies. **The models were switched.** Up to this point, the story is well known.
 
-Yet in that same year, 2026, Menlo Ventures reported something entirely different. **Switching between vendors is relatively easy, but it is becoming increasingly rare.** The annual switching rate is 11%. And 88% of enterprise LLM API usage is concentrated in three companies: OpenAI, Anthropic, and Google.
+Yet in that same year, 2026, Menlo Ventures reported something entirely different. **Switching between vendors is relatively easy, but it is becoming increasingly rare.** The annual switching rate is 11%. And 88% of enterprise LLM API usage is concentrated in three companies: Anthropic, OpenAI, and Google.
 
 **What is supposed to be switchable is not being switched. This book begins from that contradiction.**
 
