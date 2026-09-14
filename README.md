@@ -111,6 +111,7 @@ Airbnbはカスタマーサービスに Alibaba の Qwen を使っている。CE
 | **Frontier-Grade Open Weights** | 特権的なオープン。移動したのは所有権ではなく希少性の在処である。 | [GitHub](https://github.com/Leading-AI-IO/frontier-grade-open-weights)  |
 | **Us-china-ai-competition** | 米中AI競争の多層構造 ── 決めているのは、強さではなく条件である。 | [GitHub](https://github.com/Leading-AI-IO/us-china-ai-competition)  |
 | **The China AI Registry** | あなたが名前を言える5つの中国AIモデルは、中国が数えているものの1%に満たない。 | [GitHub](https://github.com/Leading-AI-IO/the-china-ai-registry)  |
+| **The AI Forecast Registry** | AI未来予測の名簿 —— AIの未来をめぐる予測を、決着の前に刻む。 | [GitHub](https://github.com/Leading-AI-IO/the-ai-forecast-registry)  |
 
 ---
 
